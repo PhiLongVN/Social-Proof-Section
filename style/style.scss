@@ -53,6 +53,13 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
+
+  background: #ffffff;
+
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+    url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, center bottom;
 }
 
 .container {
